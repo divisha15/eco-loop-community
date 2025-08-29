@@ -26,7 +26,8 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					hover: 'hsl(var(--primary-hover))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
@@ -61,7 +62,26 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				eco: {
+					green: 'hsl(var(--eco-green))',
+					blue: 'hsl(var(--eco-blue))',
+					earth: 'hsl(var(--eco-earth))',
+					leaf: 'hsl(var(--eco-leaf))'
 				}
+			},
+			backgroundImage: {
+				'gradient-hero': 'var(--gradient-hero)',
+				'gradient-card': 'var(--gradient-card)',
+				'gradient-eco': 'var(--gradient-eco)'
+			},
+			boxShadow: {
+				'eco': 'var(--shadow-eco)',
+				'card-eco': 'var(--shadow-card)',
+				'button-eco': 'var(--shadow-button)'
+			},
+			transitionTimingFunction: {
+				'eco': 'var(--transition-eco)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
