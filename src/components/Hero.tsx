@@ -16,10 +16,10 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center">
         <div className="max-w-4xl mx-auto">
-          <div className="text-3xl md:text-5xl font-bold text-eco-leaf mb-4 tracking-wider">
+          <div className="text-6xl md:text-8xl font-bold bg-gradient-eco bg-clip-text text-transparent mb-6 tracking-wider drop-shadow-lg">
             ECOSPHERE
           </div>
-          <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
+          <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
             From Overflowing
             <span className="bg-gradient-eco bg-clip-text text-transparent"> Landfills </span>
             to Circular
