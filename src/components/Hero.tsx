@@ -16,6 +16,9 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center">
         <div className="max-w-4xl mx-auto">
+          <div className="text-3xl md:text-5xl font-bold text-eco-leaf mb-4 tracking-wider">
+            ECOSPHERE
+          </div>
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
             From Overflowing
             <span className="bg-gradient-eco bg-clip-text text-transparent"> Landfills </span>
@@ -37,7 +40,7 @@ const Hero = () => {
             <Button 
               variant="outline" 
               size="lg"
-              className="border-2 border-white text-white hover:bg-white hover:text-primary transition-all duration-300 px-8 py-4 text-lg font-semibold"
+              className="border-2 border-white text-eco-leaf hover:bg-white hover:text-primary transition-all duration-300 px-8 py-4 text-lg font-semibold"
               onClick={() => {
                 const featuresSection = document.querySelector('section:nth-of-type(2)');
                 featuresSection?.scrollIntoView({ behavior: 'smooth' });
