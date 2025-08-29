@@ -33,7 +33,7 @@ const Features = () => {
     },
     {
       icon: Trophy,
-      title: "Gamification & Leaderboards",
+      title: "EcoCoins and Coupons",
       description: "Compete with neighbors, earn badges like 'Waste Warrior' and 'Plastic-Free Champ'.",
       badge: "Fun"
     },
@@ -57,7 +57,7 @@ const Features = () => {
     },
     {
       icon: Users,
-      title: "Micro-Entrepreneurship",
+      title: "Eco Fleet",
       description: "Local collectors earn per kg collected, creating sustainable employment opportunities.",
       badge: "Economic Impact"
     }

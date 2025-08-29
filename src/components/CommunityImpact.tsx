@@ -149,7 +149,7 @@ const CommunityImpact = () => {
                 
                 <div className="mt-6 p-4 bg-muted/30 rounded-lg text-center">
                   <p className="text-sm text-muted-foreground mb-2">Want to see your community here?</p>
-                  <p className="text-lg font-semibold text-primary">Join the competition today!</p>
+                  <p className="text-lg font-semibold text-primary">Join the revolution today!</p>
                 </div>
               </CardContent>
             </Card>

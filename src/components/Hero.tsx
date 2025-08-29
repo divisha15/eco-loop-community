@@ -38,6 +38,10 @@ const Hero = () => {
               variant="outline" 
               size="lg"
               className="border-2 border-white text-white hover:bg-white hover:text-primary transition-all duration-300 px-8 py-4 text-lg font-semibold"
+              onClick={() => {
+                const featuresSection = document.querySelector('section:nth-of-type(2)');
+                featuresSection?.scrollIntoView({ behavior: 'smooth' });
+              }}
             >
               Learn More
             </Button>

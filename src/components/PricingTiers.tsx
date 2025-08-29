@@ -112,6 +112,12 @@ const PricingTiers = () => {
                       : 'bg-primary hover:bg-primary-hover text-primary-foreground'
                   }`}
                   size="lg"
+                  onClick={() => {
+                    const email = prompt("Enter your email address to get started:");
+                    if (email) {
+                      alert(`Thank you! We'll send plan details to ${email}`);
+                    }
+                  }}
                 >
                   Get Started
                 </Button>

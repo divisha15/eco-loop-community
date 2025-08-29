@@ -118,7 +118,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <p className="text-sm text-primary-foreground/60">Phone</p>
-                  <p className="text-primary-foreground">+91 9876543210</p>
+                  <p className="text-primary-foreground">+91 9076989470</p>
                 </div>
               </div>
               
@@ -128,7 +128,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <p className="text-sm text-primary-foreground/60">Office</p>
-                  <p className="text-primary-foreground">Mumbai, India</p>
+                  <p className="text-primary-foreground">Jaipur, India</p>
                 </div>
               </div>
             </div>
